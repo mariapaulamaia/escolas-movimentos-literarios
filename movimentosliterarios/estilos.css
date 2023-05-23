@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: #595340;
+    height: 160px;
+}
+#imgprincipal{
+    display: block;
+    width: 160px;
+    height: 160px;
+    padding: 12px;
+    float:left;
+}
+h1, h2{
+    display: inline;
+    color: antiquewhite;
+    text-align: center;
+}
