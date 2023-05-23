@@ -5,17 +5,56 @@
 }
 header{
     background-color: #595340;
-    height: 160px;
+    height: 150px;
+}
+body{
+    background: linear-gradient(to right, #A4A697, #CCCFBC)
 }
 #imgprincipal{
     display: block;
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     padding: 12px;
+    margin-left: 40px;
     float:left;
 }
-h1, h2{
-    display: inline;
+h1,h3 {
     color: antiquewhite;
     text-align: center;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Instrument Serif', serif;
+}
+h3{
+    font-size: 40px;
+}
+#menu{
+    background-color: #A4A697;
+    height: 30px;
+}
+#menu ul li{ 
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+#menu ul li a{ 
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-left: 30px;
+    font-family: 'Bree Serif', serif;
+    font-size: 16pt;
+}
+#menu ul li a:hover{ 
+    text-decoration: none;
+    display: inline-block;
+    color: #8B8C80;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-left: 30px;
+    font-family: 'Bree Serif', serif;
+    font-size: 16pt;
 }
