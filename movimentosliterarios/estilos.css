@@ -19,7 +19,7 @@ body{
     float:left;
 }
 h1,h3 {
-    color: antiquewhite;
+    color: #faebd7;
     text-align: center;
 }
 h1{
@@ -34,7 +34,6 @@ h3{
     height: 30px;
 }
 #menu ul li{ 
-    text-decoration: none;
     display: inline;
     color: black;
 }
@@ -57,4 +56,35 @@ h3{
     padding-left: 30px;
     font-family: 'Bree Serif', serif;
     font-size: 16pt;
+}
+h4{
+    font-size: 16pt;
+    font-family: 'Bree Serif', serif;
+    color: rgb(29, 29, 29);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+#linhadotempo{
+    display: block;
+    width: 100vw;
+}
+footer{
+    background-color:#595340;
+    color: antiquewhite;
+    height: 200px;
+    padding: 50px;
+}
+footer p{
+    display: inline;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#imgfooter{
+    display: block;
+    height: 115px;
+    width: 115px;
+    float: left;
 }
