@@ -8,7 +8,7 @@ header{
     height: 150px;
 }
 body{
-    background: linear-gradient(to right, #A4A697, #CCCFBC)
+    background: #CCCFBC;
 }
 #imgprincipal{
     display: block;
@@ -29,31 +29,56 @@ h1{
 h3{
     font-size: 40px;
 }
-#menu{
+nav{
     background-color: #A4A697;
     height: 30px;
 }
-#menu ul li{ 
+#menu_quin{
+    background-color: #A4A697;
+    height: 30px;
+}
+nav ul li{ 
     display: inline;
     color: black;
 }
-#menu ul li a{ 
+#menu_quin ul li{ 
+    display: inline;
+    color: black;
+}
+nav ul li a{ 
     text-decoration: none;
     display: inline-block;
     color: black;
-    margin-left: 48px;
-    margin-right: 48px;
-    padding-left: 30px;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-inline: 24px;
     font-family: 'Bree Serif', serif;
     font-size: 16pt;
 }
-#menu ul li a:hover{ 
+#menu_quin ul li a{ 
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    margin-left: 90px;
+    margin-right: 40px;
+    padding-inline: 24px;
+    font-family: 'Bree Serif', serif;
+    font-size: 16pt;
+}
+nav ul li a:hover{ 
     text-decoration: none;
     display: inline-block;
     color: #8B8C80;
-    margin-left: 48px;
-    margin-right: 48px;
-    padding-left: 30px;
+    font-family: 'Bree Serif', serif;
+    font-size: 16pt;
+}
+#menu_quin ul li a:hover{ 
+    text-decoration: none;
+    display: inline-block;
+    color: #8B8C80;
+    margin-left: 90px;
+    margin-right: 40px;
+    padding-inline: 24px;
     font-family: 'Bree Serif', serif;
     font-size: 16pt;
 }
@@ -64,27 +89,33 @@ h4{
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
 
 }
 #linhadotempo{
     display: block;
-    width: 100vw;
+    max-height: 60%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer{
     background-color:#595340;
     color: antiquewhite;
-    height: 200px;
+    height: 150px;
     padding: 50px;
 }
 footer p{
     display: inline;
     margin-left: 50px;
-    margin-top: 50px;
+	margin-top: 90px;
+    font-family: 'Bree Serif', serif;
+    font-size: 16pt;
+
 }
 #imgfooter{
     display: block;
-    height: 115px;
-    width: 115px;
+    height: 80px;
+    width: 80px;
     float: left;
 }
