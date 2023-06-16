@@ -4,11 +4,23 @@
     box-sizing: border-box;
 }
 header{
-    background-color: #595340;
+    background-color: #260F01;
     height: 150px;
 }
 body{
-    background: #CCCFBC;
+    background:#F2D0A7;
+}
+main{
+    display: grid;
+    grid-template-columns: 48% 48%;
+}
+main #home-txt{
+    grid-column: 1;
+    padding: 2%;
+    font-size:1.5em;
+}
+main #img-home{
+    grid-column: 2;
 }
 #imgprincipal{
     display: block;
@@ -30,11 +42,11 @@ h3{
     font-size: 40px;
 }
 nav{
-    background-color: #A4A697;
+    background-color: #594839;
     height: 30px;
 }
 #menu_quin{
-    background-color: #A4A697;
+    background-color: #594839;
     height: 30px;
 }
 nav ul li{ 
@@ -48,7 +60,7 @@ nav ul li{
 nav ul li a{ 
     text-decoration: none;
     display: inline-block;
-    color: black;
+    color: #F2D0A7;
     margin-left: 100px;
     margin-right: 40px;
     padding-inline: 24px;
@@ -58,7 +70,7 @@ nav ul li a{
 #menu_quin ul li a{ 
     text-decoration: none;
     display: inline-block;
-    color: black;
+    color: #F2D0A7;
     margin-left: 90px;
     margin-right: 40px;
     padding-inline: 24px;
@@ -68,7 +80,7 @@ nav ul li a{
 nav ul li a:hover{ 
     text-decoration: none;
     display: inline-block;
-    color: #8B8C80;
+    color: #D9AA71;
     font-family: 'Bree Serif', serif;
     font-size: 16pt;
 }
@@ -100,7 +112,7 @@ h4{
     margin-right: auto;
 }
 footer{
-    background-color:#595340;
+    background-color: #594839;
     color: antiquewhite;
     height: 150px;
     padding: 50px;
