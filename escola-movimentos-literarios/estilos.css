@@ -15,12 +15,19 @@ main{
     grid-template-columns: 48% 48%;
 }
 main #home-txt{
-    grid-column: 1;
+    grid-column: 2;
     padding: 2%;
     font-size:1.5em;
 }
 main #img-home{
-    grid-column: 2;
+    grid-column: 1;
+}
+#linhadotempo{
+    display: block;
+    max-height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #imgprincipal{
     display: block;
@@ -104,13 +111,13 @@ h4{
     margin-top: 30px;
 
 }
-#linhadotempo{
-    display: block;
-    max-height: 60%;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+#texto-barroco{
+    display: grid;
+    font-size: 20%;
+
 }
+
+
 footer{
     background-color: #594839;
     color: antiquewhite;
