@@ -144,3 +144,39 @@ footer p{
     height: 10%;
    padding-left: 15%;
 }
+#quin{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+#quin #texto{
+    margin-top: 50px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: justify;
+}
+#quin #texto p{
+    font-size: 18px;
+    padding: 10px;
+}
+#quin #titulo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#quin #imagem {
+    grid-column-start: 5;
+}
+#quin #imagem img{
+    margin-top: 23px;
+    margin-left: 23px;
+    margin-right: 50px;
+    max-width: 300px;
+}
+#quin #videoquin {
+    grid-column-start: 1;
+    position: relative;
+    bottom:400px;
+    margin-left: 20%;
+    width: 600px;
+    height: 337.50px;
+    margin-bottom: 1px;;
+}
