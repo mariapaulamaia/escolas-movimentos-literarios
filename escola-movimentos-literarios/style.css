@@ -3,3 +3,10 @@ margin: 0%;
 padding: 0%;
 box-sizing: border-box;
 }
+#barroco-img {
+    float: left;
+    grid-column-start:5;
+    width: 150px;
+    height: 200px;
+   padding-left: 15%;
+}
