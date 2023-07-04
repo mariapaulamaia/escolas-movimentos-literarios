@@ -3,77 +3,174 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    background:#F2D0A7;
+    width: 100%;
+    height: 120%;
+}
+/*Header*/
 header{
     background-color: #260F01;
     height: 150px;
 }
-body{
-    background:#F2D0A7;
-}
-main{
-    display: grid;
-    grid-template-columns: 48% 48%;
-}
-main #home-txt{
-    grid-column: 2;
-    padding: 2%;
-    font-size:1.5em;
-}
-main #img-home{
-    grid-column: 1;
-}
-#linhadotempo{
-    display: block;
-    max-height: 100%;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+h1{
+    color: #faebd7;
+    text-align: center;
+    align-items: baseline;
+    font-family: 'Instrument Serif', serif;
+    font-size: 80px;
 }
 #imgprincipal{
     display: block;
-    width: 150px;
-    height: 150px;
-    padding: 12px;
-    margin-left: 40px;
+    width: 8vw;
+    height: 16vh;
+    border-radius: 50%;
+    padding: 1%;
+    margin-left: 2%;
     float:left;
 }
-h1,h3 {
-    color: #faebd7;
-    text-align: center;
-}
-h1{
-    font-size: 80px;
-    font-family: 'Instrument Serif', serif;
-}
-h3{
-    font-size: 40px;
-}
 nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #594839;
-    height: 30px;
+    height: 8vh;
+    width: 100vw;
+    font-family: 'Bree Serif', serif;
+
 }
+nav a{ 
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-around;
+    color: #F2D0A7;
+    font-family: 'Bree Serif', serif;
+    font-size: 16pt;
+    transition: 0.3s;
+}
+nav a:hover{ 
+    color: #D9AA71;
+}
+.nav-bar{
+    position: relative;
+    left: -30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-bar li{
+    margin-left: 10%;
+}
+
+
+/*Main pagina inicial*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#linhadotempo{
+    max-width: 100%;
+    display: block;
+}
+
+.img-home{
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-home h4{
+    font-size: xx-large;
+}
+.img-home > div{
+    flex: 1 1 200px;
+    position: relative;
+    top: 10%;
+}
+
+/*Footer*/
+footer{
+    position: absolute;
+    bottom: -10%;
+    width: 100vw;
+    background-color: #594839;
+    color: antiquewhite;
+    height: 150px;
+    padding: 50px;
+}
+footer p{
+    display: inline;
+    margin-left: 50px;
+	margin-top: 90px;
+    font-family: 'Bree Serif', serif;
+    font-size: 16pt;
+
+}
+#imgfooter{
+    display: block;
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+ /*Main Barroco e Arcadismo*/
+
+.main-escolas{
+    display: flex;
+    box-sizing: 100%;
+}
+#linhadotempo{
+    max-width: 100%;
+    display: block;
+}
+
+
+    
+
+.body-escola{
+    color: #260F01;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 10% 43% 43%;
+    
+}
+.body-escola > div{
+    grid-column: 2/3;
+    position: absolute;
+    top: 30%;
+}
+.body-escola > img{
+    grid-column: 0/1;
+    display: block;
+    border-radius: 30%;
+    position: relative;
+    top: 50%;
+}
+.body-escola h1{
+    color: #260F01;
+}
+.body-escola h4{
+    font-size: xx-large;
+}
+
+
+
+
+
+
 #menu_quin{
     background-color: #594839;
     height: 30px;
 }
-nav ul li{ 
-    display: inline;
-    color: black;
-}
+
 #menu_quin ul li{ 
     display: inline;
     color: black;
 }
-nav ul li a{ 
-    text-decoration: none;
-    display: inline-block;
-    color: #F2D0A7;
-    margin-left: 100px;
-    margin-right: 40px;
-    padding-inline: 24px;
-    font-family: 'Bree Serif', serif;
-    font-size: 16pt;
-}
+
+
+
+
 #menu_quin ul li a{ 
     text-decoration: none;
     display: inline-block;
@@ -84,13 +181,7 @@ nav ul li a{
     font-family: 'Bree Serif', serif;
     font-size: 16pt;
 }
-nav ul li a:hover{ 
-    text-decoration: none;
-    display: inline-block;
-    color: #D9AA71;
-    font-family: 'Bree Serif', serif;
-    font-size: 16pt;
-}
+
 #menu_quin ul li a:hover{ 
     text-decoration: none;
     display: inline-block;
@@ -118,26 +209,7 @@ h4{
 }
 
 
-footer{
-    background-color: #594839;
-    color: antiquewhite;
-    height: 150px;
-    padding: 50px;
-}
-footer p{
-    display: inline;
-    margin-left: 50px;
-	margin-top: 90px;
-    font-family: 'Bree Serif', serif;
-    font-size: 16pt;
 
-}
-#imgfooter{
-    display: block;
-    height: 80px;
-    width: 80px;
-    float: left;
-}
 
 #quin{
     display: grid;
@@ -176,49 +248,4 @@ footer p{
     margin-bottom: 1px;;
 }
 
-.main-escolas{
-    display: grid;
-    grid-template-columns: 19% 19% 19% 19%;
-    color: #260F01;
-}
-.main-escolas .titulo h1, 
-h3{
-    color: black;
-}
-.main-escolas .titulo{
-    grid-column: 2 /5;
-    padding-bottom: 10%;
-}
-.main-escolas .corpo-pags{
-    font-size: 2em;
-    display: grid;
-    grid-column: 2 / 5; 
-    text-align: justify;
-}
-.main-escolas .corpo-pags h4{
-    font-size: 1.2em;
-}
 
-.main-escolas #arcad-video {
-    display: grid;
-    grid-column: 1/4;
-    position: relative;
-    top: 3%;
-    bottom: 4%;
-    width: 75%;
-    height: 27%;
-    padding-bottom: 2%;
-}
-.main-escolas #barr-video {
-    display: grid;
-    grid-column: 2/5;
-    top: 3%;
-    bottom: 4%;
-    width: 80%;
-    height: 250%;
-    padding-bottom: 2%;
-}
-
-#fraseheader{
-    color: #faebd7;
-}
