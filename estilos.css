@@ -116,11 +116,42 @@ footer p{
 
 .main-escolas{
     display: flex;
-    box-sizing: 100%;
+    flex-wrap: nowrap;
+
 }
 #linhadotempo{
     max-width: 100%;
     display: block;
+}
+
+#barroco-img{
+    display: block;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 79%;
+    width: 20vw;
+    height: 20vh;
+    border-radius: 2%;
+}
+.barr-video{
+    max-width: 100%;
+    position: relative;
+    top: 120%;
+    right: 50%;
+    width: 20vw;
+    height: 15vw;
+}
+
+.corpo-sobre li a{
+    color: #594839;
+    text-decoration: none;
+
+}
+.img-home > .corpo-sobre {
+    flex: 1 1 200px;
+    position: relative;
+    top: 30%;
 }
 
 
